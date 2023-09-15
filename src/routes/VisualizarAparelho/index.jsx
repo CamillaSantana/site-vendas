@@ -1,9 +1,9 @@
 import { useNavigate, useParams } from "react-router-dom"
-import { listAparelhos } from "../../components/listaAparelhos"
+import { listaAparelhos } from "../../components/listaAparelhos"
 
 export default function VisualizarAparelho(){
 
-    const lista = listAparelhos
+    const lista = listaAparelhos
     const navegacao = useNavigate()
     const {id} = useParams()
 
@@ -13,7 +13,8 @@ export default function VisualizarAparelho(){
     return(
         <main>
             <h1>Visualizando aparelho:</h1>
-            
+            <img src={prod.imagem} alt={prod.nome} />
+
         </main>
     )
 
