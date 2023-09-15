@@ -26,6 +26,10 @@ const router = createBrowserRouter([
         path: "/aparelhos/visualizar-aparelho/:id",
         element: <VisualizarAparelho/>
       },
+      {
+        path: "/antiga",
+        element: <Navigate to="/"/>
+      },
 
     ]
   }
