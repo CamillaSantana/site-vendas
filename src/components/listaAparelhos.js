@@ -1,33 +1,39 @@
+import celular from '../assets/celular.jpg'
+import fone from '../assets/fone.jpg'
+import tablet from '../assets/tablet.jpg'
+import carregador from '../assets/carregador.jpg'
+import smartwatch from '../assets/smartwatch.jpg'
+
 export const listaAparelhos = [
 
     {
         id: 1,
         nome: 'Celular',
         preco: 950,
-        imagem: '/assets/celular.jpg'
+        imagem: celular
     },
     {
         id: 2,
         nome: 'Fone de ouvido',
         preco: 150,
-        imagem: '/assets/fone.jpg'
+        imagem: fone
     },
     {
         id: 3,
         nome: 'Tablet',
         preco: 500,
-        imagem: '/assets/tablet.jpg'
+        imagem: tablet
     },
     {
         id: 4,
         nome: 'Carregador portátil',
         preco: 375,
-        imagem: '/assets/carregador.jpg'
+        imagem: carregador
     },
     {
         id: 5,
         nome: 'Smartwatch',
         preco: 1100,
-        imagem: '/assets/smartwatch.jpg'
+        imagem: smartwatch
     },
 ]

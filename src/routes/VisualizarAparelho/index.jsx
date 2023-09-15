@@ -12,9 +12,9 @@ export default function VisualizarAparelho(){
 
     return(
         <main>
-            <h1>Visualizando aparelho:</h1>
-            <img src={prod.imagem} alt={prod.nome} />
-
+            <h1>{aparelho.nome}</h1>
+            <img src={aparelho.imagem} alt={aparelho.nome} />
+            <p>Valor: R${aparelho.preco}</p>
         </main>
     )
 
