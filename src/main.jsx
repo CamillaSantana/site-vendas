@@ -6,7 +6,7 @@ import Aparelhos from './routes/Aparelhos/index.jsx'
 import Home from './routes/Home/index.jsx'
 import VisualizarAparelho from './routes/VisualizarAparelho/index.jsx'
 import Error from './routes/Error/index.jsx'
-import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
